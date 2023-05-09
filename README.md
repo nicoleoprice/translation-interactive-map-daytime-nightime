@@ -18,5 +18,5 @@ The user will move the cursor over the map to highlight a region or country of i
 
 ## **Research, Process, and Troubleshooting**
 -	Languages
-o	Combination of Bing and Google Translate and free online dictionaries
-o	Some languages had unclear or hard-to-find translations, so the official language was used instead of the most spoken
+	- Combination of Bing and Google Translate and free online dictionaries
+	- Some languages had unclear or hard-to-find translations, so the official language was used instead of the most spoken
