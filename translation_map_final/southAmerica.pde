@@ -1,0 +1,194 @@
+PShape argentina;
+PShape bolivia;
+PShape brazil;
+PShape chile;
+PShape colombia;
+PShape ecuador;
+PShape falklandIslands;
+PShape frenchGuiana;
+PShape guyana;
+PShape paraguay;
+PShape peru;
+PShape suriname;
+PShape uruguay;
+PShape venezuela;
+
+color argentinaColor;
+color boliviaColor;
+color brazilColor;
+color chileColor;
+color colombiaColor;
+color ecuadorColor;
+color falklandIslandsColor;
+color frenchGuianaColor;
+color guyanaColor;
+color paraguayColor;
+color peruColor;
+color surinameColor;
+color uruguayColor;
+color venezuelaColor;
+
+void drawSouthAmerica() {
+  textAlign(CENTER);
+  shapeMode(CENTER);
+  background(wordBackground);
+  strokeWeight(0.5);
+  southAmericaMap.disableStyle();
+  noFill();
+  shape(southAmericaMap, width/2, height/2, 600, 800);
+
+  argentina = southAmericaMap.getChild("Argentina");
+  argentina.disableStyle();
+  fill(argentinaColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(argentina, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(30);
+  text(spanishWord, 720, 610);
+
+  bolivia = southAmericaMap.getChild("Bolivia");
+  bolivia.disableStyle();
+  fill(boliviaColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(bolivia, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(25);
+  text(spanishWord, 680, 400);
+
+  brazil = southAmericaMap.getChild("Brazil");
+  brazil.disableStyle();
+  fill(brazilColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(brazil, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(40);
+  text(portugueseWord, 860, 350);
+
+  chile = southAmericaMap.getChild("Chile");
+  chile.disableStyle();
+  fill(chileColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(chile, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(12);
+  text(spanishWord, 630, 480);
+
+  colombia = southAmericaMap.getChild("Colombia");
+  colombia.disableStyle();
+  fill(colombiaColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(colombia, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(25);
+  text(spanishWord, 555, 170);
+
+  ecuador = southAmericaMap.getChild("Ecuador");
+  ecuador.disableStyle();
+  fill(ecuadorColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(ecuador, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(18);
+  text(spanishWord, 490, 220);
+
+  falklandIslands = southAmericaMap.getChild("FalklandIslands");
+  falklandIslands.disableStyle();
+  fill(falklandIslandsColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(falklandIslands, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(15);
+  text(englishWord, 860, 795);
+
+  frenchGuiana = southAmericaMap.getChild("FrenchGuiana");
+  frenchGuiana.disableStyle();
+  fill(frenchGuianaColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(frenchGuiana, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(8);
+  text(frenchWord, 815, 150);
+
+  guyana = southAmericaMap.getChild("Guyana");
+  guyana.disableStyle();
+  fill(guyanaColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(guyana, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(8);
+  text(englishWord, 735, 132);
+
+  paraguay = southAmericaMap.getChild("Paraguay");
+  paraguay.disableStyle();
+  fill(paraguayColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(paraguay, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(8);
+   String paraguayLanguages = spanishWord + "\n" + guaraniWord;
+  text(paraguayLanguages, 762, 467);
+
+  peru = southAmericaMap.getChild("Peru");
+  peru.disableStyle();
+  fill(peruColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(peru, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(20);
+  text(spanishWord, 560, 350);
+
+  suriname = southAmericaMap.getChild("Suriname");
+  suriname.disableStyle();
+  fill(surinameColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(suriname, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(12);
+  text(srnanTongoWord, 775, 150);
+
+  uruguay = southAmericaMap.getChild("Uruguay");
+  uruguay.disableStyle();
+  fill(uruguayColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(uruguay, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(15);
+  text(spanishWord, 820, 590);
+
+  venezuela = southAmericaMap.getChild("Venezuela");
+  venezuela.disableStyle();
+  fill(venezuelaColor);
+  stroke(strokeColor);
+  strokeWeight(0.2);
+  shape(venezuela, width/2, height/2, 600, 800);
+  fill(fontColor);
+  textFont(arial);
+  textSize(25);
+  text(spanishWord, 640, 110);
+}
