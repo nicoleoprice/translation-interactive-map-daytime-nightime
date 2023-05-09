@@ -11,7 +11,7 @@ The user will move the cursor over the map to highlight a region or country of i
 - Word – the current word displayed
 - Transliteration – used for languages that do not use Latin alphabet as their main written alphabet
 - Language – name of language used for the word 
-	- *Note: some languages have alternative names ie Cook Islands Māori is also called Rarotongan, only one form was selected to avoid confusion*
+	- *Note: some languages have alternative names (ie Cook Islands Māori is also called Rarotongan, only one form was selected to avoid confusion)*
 - Most Spoken / Official
 	- Most Spoken – This language has the highest number of speakers within this country, but it is not used for governmental purposes
 	- Official – This language is what is used for governmental purposes
