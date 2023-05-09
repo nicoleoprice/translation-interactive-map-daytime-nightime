@@ -2008,7 +2008,7 @@ void drawTranslationBox() {
   } else if (kazakhstanColor == wordDark) {
     country = "Kazakhstan";
     language = "Kazakh";
-    fullTranslate = country  + "\nWord: " + kazakhWord + "\nTransliteration: " + kazakhTL + "\nLanguage: "  + language + most;
+    fullTranslate = country  + "\nWord: " + kazakhWord + "\nTransliteration: " + kazakhTL + "\nLanguage: "  + language + both;
 
     strokeWeight(2);
     rect(10, 710, 340, 170, 10);
@@ -2019,7 +2019,7 @@ void drawTranslationBox() {
   } else if (kyrgyzstanColor == wordDark) {
     country = "Kyrgyzstan";
     language = "Kyrgyz";
-    fullTranslate = country  + "\nWord: " + kyrgyzWord + "\nTransliteration: " + kyrgyzTL + "\nLanguage: "  + language + most;
+    fullTranslate = country  + "\nWord: " + kyrgyzWord + "\nTransliteration: " + kyrgyzTL + "\nLanguage: "  + language + both;
 
     strokeWeight(2);
     rect(10, 710, 300, 170, 10);
@@ -2030,7 +2030,7 @@ void drawTranslationBox() {
   } else if (tajikistanColor == wordDark) {
     country = "Tajikistan";
     language = "Tajik";
-    fullTranslate = country  + "\nWord: " + tajikWord + "\nTransliteration: " + tajikTL + "\nLanguage: "  + language + most;
+    fullTranslate = country  + "\nWord: " + tajikWord + "\nTransliteration: " + tajikTL + "\nLanguage: "  + language + both;
 
     strokeWeight(2);
     rect(10, 710, 300, 170, 10);
